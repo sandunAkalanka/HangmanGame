@@ -4,8 +4,6 @@ secret = "apple"
 print("Your word has " , len(secret) , " characters")
 list1 = list(secret)
 list2 = ["_"] * len(list1)
-print("list1 ", list1)
-print("list2 ", list2)
 lives = 5
 
 while lives >= 0 :
